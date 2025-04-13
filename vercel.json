@@ -1,0 +1,16 @@
+{
+  "routes": [
+    {
+      "src": "/gjgks01/(.*)",
+      "dest": "gjgks01/dist/$1"
+    },
+    {
+      "src": "/gjgks02/(.*)",
+      "dest": "gjgks02/dist/$1"
+    },
+    {
+      "src": "/gjgks03/(.*)",
+      "dest": "gjgks03/dist/$1"
+    }
+  ]
+}
